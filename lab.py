@@ -307,6 +307,9 @@ def split_college_data(college, target_col='high_grad_rate',
         'y_tune': y_tune,
         'y_test': y_test
     }
+# %% [markdown]
+# There may be bias in institutions like public vs privte. Some of the features are also related to socioeconomic status which can influence results. 
+
 # %%
 # Pipeline
 def college_pipeline(college):
